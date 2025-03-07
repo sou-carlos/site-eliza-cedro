@@ -11,8 +11,8 @@
       name="keywords"
       content="Psicóloga, Terapia Cognitivo-Comportamental, Atendimento Online, Psicoterapia"
     />
-    <meta name="author" content="Elisa Cedro" />
-    <title>Elisa Cedro - Psicóloga</title>
+    <meta name="author" content="Eliza Cedro" />
+    <title>Eliza Cedro - Psicóloga</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -30,7 +30,7 @@
     <main>
       <section id="inicio">
         <div class="sobre-text">
-          <h2>Elisa Cedro</h2>
+          <h2>Eliza Cedro</h2>
           <h3>Psicanalista</h3>
           <h3>CRP 03/30974</h3>
           <p>
@@ -38,7 +38,7 @@
             significado começa aqui.
           </p>
 
-          <button class="inicio-button">
+          <button class="inicio-button" onclick="abrirWhatsApp()">
             Dê o primeiro passo. Fale comigo agora!
           </button>
         </div>
@@ -99,7 +99,7 @@
         </p>
 
         <ul>
-          <!-- <li>Ansiedade e Estresse</li>
+          <li>Ansiedade e Estresse</li>
           <li>Depressão e Regulação Emocional</li>
           <li>Fobias e Medos</li>
           <li>TDAH (Transtorno do Déficit de Atenção e Hiperatividade)</li>
@@ -111,8 +111,8 @@
           <li>Divórcio e Reconfiguração Familiar</li>
           <li>Autoestima e Imagem Corporal</li>
           <li>Desafios Familiares</li>
-          <li>Crises Existenciais</li> -->
-          <li>Hipnose</li>
+          <li>Crises Existenciais</li>
+          <!-- <li>Hipnose</li>
           <li>Terapia primal</li>
           <li>Constelação familiar</li>
           <li>Acupuntura</li>
@@ -121,7 +121,7 @@
           <li>Palavras de afirmação</li>
           <li>Búzios e Tarô</li>
           <li>Reprogramação mental quantica</li>
-          <li>Poder do pensamento</li>
+          <li>Poder do pensamento</li> -->
         </ul>
       </section>
 
@@ -144,4 +144,16 @@
       <p>Entre em contato para agendar sua sessão.</p>
     </footer>
   </body>
+
+  <script>
+    function abrirWhatsApp() {
+      const telefone = "5574981211595";
+      const mensagem = "Olá, gostaria de saber mais sobre a psicoterapia."; // Mensagem padrão
+      const url = `https://wa.me/${telefone}?text=${encodeURIComponent(
+        mensagem
+      )}`;
+
+      window.open(url, "_blank"); // Abre o WhatsApp em uma nova aba
+    }
+  </script>
 </html>
