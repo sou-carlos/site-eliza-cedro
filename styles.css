@@ -2,8 +2,12 @@
   --primary-color: #eac9c6;
   --secondary-color: #f4f4f4;
   --text-color: #333;
-  --font-family: Arial, sans-serif;
+  --font-family: "Ubuntu", sans-serif;
   --spacing: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -43,7 +47,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(75, 26, 26);
+  color: rgb(17, 3, 3);
   font-weight: bold;
   text-decoration: none;
   font-size: 1rem;
@@ -94,6 +98,42 @@ section {
   justify-content: space-between;
 }
 
+#inicio {
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff8fd;
+  padding: 0 32px;
+  padding-right: 0;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#inicio h2 {
+  font-size: 2rem;
+  color: rgb(17, 3, 3);
+}
+
+#inicio h3 {
+  font-size: 1.5rem;
+  color: rgb(17, 3, 3);
+}
+
+.inicio-button {
+  padding: 20px;
+  font-size: 1.5rem;
+  border-radius: 16px;
+  border: none;
+  background: #25d366;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.inicio-button:hover {
+  background: #128c7e;
+  cursor: pointer;
+}
+
 .sobre-text {
   display: flex;
   flex-direction: column;
@@ -124,9 +164,24 @@ li {
   margin-bottom: 8px;
 }
 
+#servicos ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+  gap: 10px; /* Espaçamento entre os itens */
+  list-style: none; /* Remove os marcadores da lista */
+  padding: 0;
+}
+
+#servicos ul li {
+  background-color: #128c7e;
+  padding: 20px;
+  border-radius: 16px;
+  color: white;
+}
+
 footer {
   text-align: center;
   padding: var(--spacing);
-  background-color: #4d1a21;
+  background-color: rgb(17, 3, 3);
   color: white;
 }
