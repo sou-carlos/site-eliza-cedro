@@ -12,26 +12,21 @@ html {
 
 body {
   font-family: var(--font-family);
+  font-family: "Poppings", Sans-serif;
   color: var(--text-color);
   margin: 0;
   padding: 0;
-  background-color: #fafafa;
+  background-color: #f5e7de;
 }
 
 header {
-  background-color: white;
+  background-color: #d69f8f;
   text-align: center;
   padding: 32px 16px;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
   /* border-bottom: 1px solid #f5e3e3; */
-}
-
-header h1 {
-  font-size: 1.5rem;
-  color: #4d1a21;
-  margin: 0;
 }
 
 nav ul {
@@ -47,7 +42,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: rgb(17, 3, 3);
+  color: #ffffff;
   font-weight: bold;
   text-decoration: none;
   font-size: 1rem;
@@ -81,7 +76,7 @@ nav ul li a:hover {
 
 section {
   padding: var(--spacing);
-  padding: 0 60px;
+  padding: 0 76px;
   /* margin: var(--spacing); */
   /* background: white; */
   /* border-radius: 8px; */
@@ -91,7 +86,7 @@ section {
 #sobre {
   width: 100%;
   box-sizing: border-box;
-  background: #fff8fd;
+  /* background: #fff8fd; */
   padding: 0 32px;
   padding-right: 0;
   height: 100%;
@@ -102,19 +97,16 @@ section {
 #inicio {
   width: 100%;
   box-sizing: border-box;
-  /* background: #f1c5a1; */
-  background-color: #ffffff;
-  padding: 0 32px;
-  padding-right: 0;
-  padding-left: 60px;
-  /* color: #fff; */
-  height: 100%;
+  background-color: #fcf4ef;
   display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
   justify-content: space-between;
 }
 
 #inicio h2 {
-  font-size: 2rem;
+  font-size: 6rem;
   margin-bottom: 10px;
   color: #a8734d;
 }
@@ -146,7 +138,9 @@ section {
 .sobre-text {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  font-family: "Poppings", Sans-serif;
+  /* width: 40%; */
+  margin-bottom: 80px;
 }
 
 .sobre-img-container {
@@ -182,17 +176,18 @@ li {
 }
 
 #servicos ul li {
-  background-color: #f1c5a1;
+  background-color: #fbfaf8;
   padding: 20px;
   border-radius: 16px;
-  color: #fff;
+  color: #383735;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 footer {
   text-align: center;
   padding: var(--spacing);
-  background-color: #000000;
-  color: white;
+  background-color: #fff8f2;
+  color: #cda398;
 }
 
 .whatsapp-button {
@@ -219,4 +214,16 @@ footer {
 .whatsapp-button:hover {
   transform: scale(1.1);
   cursor: pointer;
+}
+
+#sessao {
+  background-color: #ca9688;
+  color: #fffdfc;
+  padding: 16px 76px;
+}
+
+#sessao h2 {
+  color: #fffdfc;
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
