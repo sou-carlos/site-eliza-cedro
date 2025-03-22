@@ -90,6 +90,9 @@ section {
   box-sizing: border-box;
   /* background: #fff8fd; */
   padding: 0 32px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 76px;
   padding-right: 0;
   height: 100%;
   display: flex;
@@ -144,12 +147,13 @@ section {
   display: flex;
   flex-direction: column;
   font-family: "Poppings", Sans-serif;
-  /* width: 40%; */
+  width: 40%;
   margin-bottom: 80px;
 }
 
 .sobre-img-container {
   width: 55%;
+  border: 3px solid rgb(97, 63, 63);
 }
 
 .profile {
@@ -170,6 +174,15 @@ ul {
 
 li {
   margin-bottom: 8px;
+}
+
+#servicos {
+  /* background-color: #f5e7de; */
+  background-color: #fff0ec;
+  padding: 0 76px;
+  padding-top: 40px;
+  padding-left: 76px;
+  padding-right: 0;
 }
 
 #servicos ul {
