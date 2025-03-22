@@ -16,11 +16,12 @@ body {
   color: var(--text-color);
   margin: 0;
   padding: 0;
-  background-color: #f5e7de;
+  /* background-color: #f5e7de; */
 }
 
 header {
-  background-color: #d69f8f;
+  /* background-color: #d69f8f; */
+  background-color: #fff;
   text-align: center;
   padding: 32px 16px;
   display: flex;
@@ -42,7 +43,8 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: rgb(40, 41, 54);
   font-weight: bold;
   text-decoration: none;
   font-size: 1rem;
@@ -97,7 +99,8 @@ section {
 #inicio {
   width: 100%;
   box-sizing: border-box;
-  background-color: #fcf4ef;
+  /* background-color: #fcf4ef; */
+  background-color: #fff0ec;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -108,14 +111,16 @@ section {
 #inicio h2 {
   font-size: 6rem;
   margin-bottom: 10px;
-  color: #a8734d;
+  /* color: #a8734d; */
+  color: rgb(40, 41, 54);
 }
 
 #inicio h3 {
   margin-top: 10px;
   margin-bottom: 0;
   font-size: 1.5rem;
-  color: #a8734d;
+  /* color: #a8734d; */
+  color: rgb(40, 41, 54);
 }
 
 .inicio-button {
@@ -155,7 +160,7 @@ section {
 
 h1,
 h2 {
-  color: #a86f5b;
+  /* color: #a86f5b; */
 }
 
 ul {
@@ -177,17 +182,18 @@ li {
 
 #servicos ul li {
   background-color: #fbfaf8;
-  padding: 20px;
+  padding: 30px;
   border-radius: 16px;
-  color: #383735;
+  color: rgb(40, 41, 54);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 footer {
   text-align: center;
   padding: var(--spacing);
-  background-color: #fff8f2;
+  /* background-color: #fff8f2; */
   color: #cda398;
+  color: rgb(40, 41, 54);
 }
 
 .whatsapp-button {
@@ -217,13 +223,19 @@ footer {
 }
 
 #sessao {
-  background-color: #ca9688;
-  color: #fffdfc;
+  /* background-color: #ca9688; */
+  background-color: #fff0ec;
+
+  /* color: #fffdfc; */
+  color: rgb(40, 41, 54);
+
   padding: 16px 76px;
 }
 
 #sessao h2 {
-  color: #fffdfc;
+  /* color: #fffdfc; */
+  color: rgb(40, 41, 54);
+
   font-size: 2rem;
   margin-bottom: 10px;
 }
